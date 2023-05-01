@@ -87,3 +87,13 @@ select * from employees
 select * from salaries
 
 select * from titles
+
+
+alter table "salaries" drop column from_date;
+alter table "salaries" drop column to_date;
+
+alter table "dept_emp" drop column from_date;
+alter table "dept_emp" drop column to_date;
+
+alter table "dept_manager" drop column from_date;
+alter table "dept_manager" drop column to_date;
